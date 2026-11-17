@@ -1,0 +1,31 @@
+# Maven build outputs
+target/
+*.war
+*.jar
+*.class
+
+# Eclipse / IDE metadata
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Uploads runtime binaries (keep directories)
+uploads/resumes/*
+uploads/certificates/*
+!uploads/resumes/.gitkeep
+!uploads/certificates/.gitkeep
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
